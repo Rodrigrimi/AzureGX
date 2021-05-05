@@ -40,7 +40,7 @@ jobs:
           path: ${project.basedir}/releases/
     deploy:
     runs-on: ubuntu-latest
-      -name: Build and Push Docker Image
+      - name: Build and Push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: rgrimalt/pruebadocker
