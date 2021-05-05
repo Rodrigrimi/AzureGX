@@ -38,8 +38,6 @@ jobs:
         with:
           name: DeployAKS-1.0-SNAPSHOT
           path: ${project.basedir}/releases/
-    deploy:
-    runs-on: ubuntu-latest
       - name: Build and Push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
