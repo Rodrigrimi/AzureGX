@@ -40,7 +40,7 @@ jobs:
       - name: Build and Push Docker Image
       - uses: devmasx/cached-docker-build-push@v0.2.2
   with:
-    image_name: devmasx/project-name-web
+    image_name: rgrimalt/pruebadocker
     image_tag: ${{ github.sha }}
     file: Dockerfile.web
     cache_stage_target: builder
