@@ -36,7 +36,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: DeployAKS-1.0-SNAPSHOT
-          path: ${project.basedir}/releases/
+          path: ${project.basedir}/Rodrigrimi/AzureGX/
     - name: Build and Push Docker Image
     - uses: actions/checkout@v2
     name: Check out code
